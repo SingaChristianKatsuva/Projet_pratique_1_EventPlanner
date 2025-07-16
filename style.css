@@ -1,0 +1,92 @@
+/* Reset de base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+/* Modifie ton container */
+.initial_container {
+  width: 100%;
+  height: 100vh; /* Prend toute la hauteur de l'écran */
+  background-color: #e6e8ea;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Tes headers restent pareils */
+.top_header {
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  align-content: center;
+  padding: 3px;
+  width: 100%;
+  height: 100px;
+  flex-shrink: 0; /* Empêche la compression */
+}
+
+.bottom_header {
+  color: white;
+  text-align: center;
+  align-content: center;
+  width: 100%;
+  height: 40px;
+  background-color: darkslategray;
+  flex-shrink: 0; /* Empêche la compression */
+  margin-bottom: 15px;
+}
+
+.bottom_header span {
+  padding: 10px;
+}
+.about_title {
+  color: #1282ff;
+}
+.card_event_Info {
+  background-color: white;
+  width: 60%;
+  height: fit-content;
+  border-radius: 7px;
+  margin: auto;
+  padding: 1%;
+  box-shadow: 1px 1px 5px black;
+  margin-top: 7px;
+}
+.table_event {
+  width: 100%;
+  border-radius: 9px;
+  border: 1px solid grey;
+  margin-top: 5px;
+}
+table,
+th,
+tr,
+td {
+  border: 1px solid grey;
+  border-collapse: collapse;
+}
+th {
+  background-color: #f1f1f1;
+  color: #595f6f;
+}
+
+.session_th {
+  width: 60%;
+  font-weight: bold;
+}
+.contest_th {
+  width: 30%;
+}
+.div_form{
+  margin-top: 10px;
+}
+label , input{
+  margin: 5px;
+}
+
