@@ -47,16 +47,25 @@
           <div class="div_form">
             <h3>Add an event</h3>
             <form action="" id="event_form">
-                <label for="Time">Time : </label>
-                <input type="date" name="Time"><br>
-                <label for="session">Session : </label>
-                <input type="text"  placeholder="enter text here..."></textarea><br>
-                <label for="contest">Contest : </label>
-                <input type="text "  placeholder="Enter text here..."></textarea><br>
-                <input type="submit" value="Add event" id="button-3">
-              </form>
+              <label for="Time">Time : </label>
+              <input type="date" name="Time" required /><br />
+              <label for="session">Session : </label>
+              <input
+                type="text"
+                placeholder="enter text here..."
+                name="Session"
+                required
+              /><br />
+              <label for="contest">Contest : </label>
+              <input
+                type="text "
+                placeholder="Enter text here..."
+                name="Contest"
+                required
+              /><br />
+              <input type="submit" value="Add event" id="submit_button" />
+            </form>
           </div>
-          
         </div>
       </div>
     </div>
